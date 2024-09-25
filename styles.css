@@ -1,35 +1,57 @@
-/* Outdated CSS */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto 1fr; 
+    grid-gap: 0.2em;
+  }
+  
+  header {
+    grid-column: 1 / -1; 
+  }
+  
+  .main1 {
+    grid-row: 3; 
+    grid-column: 1; 
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80%;
+  }
+  
+  .main2 {
+    grid-row: 3; 
+    grid-column: 2; 
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80%;
+  }
+  
+  footer {
+    grid-column: 1 / -1; 
+    grid-row: 4; 
+    font-family: sans-serif;
+  }
+  
+  .grid > * {
+    background: rgb(161, 161, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+  }  
+  
+ .header1
+  {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+.header2
+{
+    text-align: center;
+    font-family: sans-serif;
 }
 
-h1 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
+h1
+{
+    font-size: 300%;
 }
