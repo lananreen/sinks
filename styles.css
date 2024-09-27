@@ -13,7 +13,7 @@ body {
 }
 
 .banner {
-  background-color: #4CAF50;
+  background-color: #818181;
   color: white;
   height: 200px;
   width: 100%;
@@ -40,15 +40,14 @@ body {
 
 .features {
   color: #000000;
-  height: 700px;
   width: 100%;
-  margin-top: 68%;
+  padding-top: 75%; 
   text-align: center;
   box-sizing: border-box;
+  clear: both; 
 }
 
-h1 {
-  padding: 0;
+h1 {  padding: 0;
   font-size: 300%;
 }
 
@@ -60,16 +59,12 @@ p1 {
 p2,
 p3,
 p4 {
-  padding-left: 5%;
-  padding-right: 5%;
   font-size: 20px;
 }
 
 img {
   display: block;
-  margin-top: 1.5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto; 
   width: 50%;
 }
 
@@ -77,3 +72,4 @@ h3,
 h4 {
   font-size: 150%;
 }
+
