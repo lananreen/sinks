@@ -21,6 +21,16 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+
+.Topbar {
+  background-color: #666666;
+  color: white;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .About {
   background-color: #cecece;
   color: rgb(0, 0, 0);
@@ -81,4 +91,24 @@ h1 {
 p1 {
   font-size: 1
   50%;
+}
+
+h5{
+  font-size: 100%;
+  display: inline-block
+}
+
+h6{
+  font-size: 100%;
+  margin-left: 10%;
+  display: inline-block
+}
+
+h7,
+h8,
+h9{
+  font-weight: bold;
+  font-size: 100%;
+  margin-left: 10%;
+  display: inline-block
 }
